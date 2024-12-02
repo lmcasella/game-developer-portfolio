@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { HomeModule } from './home/home.module';
+import { SharedModule } from './shared/shared.module';
 // import { SharedModule } from './shared/shared.module';
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HomeModule } from './home/home.module';
     BrowserModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    HomeModule
+    HomeModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

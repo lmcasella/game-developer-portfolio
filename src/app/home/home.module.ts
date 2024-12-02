@@ -6,6 +6,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MaterialModule } from '../material/material.module';
 
 import { HomePageComponent } from './pages/home-page/home-page.component';
+import { SharedModule } from "../shared/shared.module";
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
   imports: [
     CommonModule,
     MaterialModule,
+    SharedModule
   ],
   exports: [
     HomePageComponent

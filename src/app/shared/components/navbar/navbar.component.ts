@@ -1,10 +1,10 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'home-page',
+  selector: 'shared-navbar',
   standalone: false,
-  templateUrl: './home-page.component.html',
-  styleUrls: ['./home-page.component.scss'],
+  templateUrl: './navbar.component.html',
+  styleUrl: './navbar.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HomePageComponent { }
+export class NavbarComponent { }
