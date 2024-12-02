@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 // dominio.com/
 const routes: Routes = [
   {
-    path: 'heroes',
+    path: 'home',
     loadChildren: () => import('./home/home.module').then(m => m.HomeModule),
   },
   {
