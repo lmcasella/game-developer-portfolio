@@ -1,7 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+/* styles.scss */
 @use '@angular/material' as mat;
 
-/** Dark theme primary colors */
 $color-primary-a0: #675496;
 $color-primary-a10: #7865a1;
 $color-primary-a20: #8877ad;
@@ -9,7 +8,6 @@ $color-primary-a30: #998ab9;
 $color-primary-a40: #aa9cc4;
 $color-primary-a50: #baafd0;
 
-/** Dark theme surface colors */
 $color-surface-a0: #141314;
 $color-surface-a10: #292829;
 $color-surface-a20: #403f40;
@@ -17,19 +15,12 @@ $color-surface-a30: #585858;
 $color-surface-a40: #727172;
 $color-surface-a50: #8c8c8c;
 
-/** Dark theme mixed surface colors */
 $color-surface-mixed-a0: #1c191f;
 $color-surface-mixed-a10: #312e34;
 $color-surface-mixed-a20: #47444a;
 $color-surface-mixed-a30: #5f5c61;
 $color-surface-mixed-a40: #777579;
 $color-surface-mixed-a50: #918f93;
-
- /** Examples */
-.bg-primary {
- color: $color-primary-a50;
- background-color: $color-surface-a0;
-}
 
 html,
 body {
