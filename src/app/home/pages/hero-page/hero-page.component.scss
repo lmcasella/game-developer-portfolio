@@ -1,0 +1,23 @@
+@use '../../../../styles' as styles;
+
+:host {
+  display: block;
+}
+
+.profile-pic {
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid styles.$color-primary-a40;
+  }
+}
+
+.highlight {
+  color: styles.$color-primary-a40;
+  font-weight: 700;
+}
+
+.rol {
+  font-size: 1.3em;
+}

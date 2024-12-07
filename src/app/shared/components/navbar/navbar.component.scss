@@ -3,4 +3,27 @@
 :host {
   display: block;
   background-color: styles.$color-surface-mixed-a0;
+  position: fixed;
+}
+
+.header-name {
+  font-size: 42px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.header-sections a {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.header-sections a:hover {
+  color: styles.$color-primary-a40;
+}
+
+.header-sections a span {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }

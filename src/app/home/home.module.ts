@@ -7,6 +7,7 @@ import { MaterialModule } from '../material/material.module';
 
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { SharedModule } from "../shared/shared.module";
+import { HeroPageComponent } from "./pages/hero-page/hero-page.component";
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { SharedModule } from "../shared/shared.module";
   imports: [
     CommonModule,
     MaterialModule,
-    SharedModule
+    SharedModule,
+    HeroPageComponent
   ],
   exports: [
     HomePageComponent
